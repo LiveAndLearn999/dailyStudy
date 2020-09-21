@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>gradients</title>
+	<style type="text/css">
+		/*线性渐变（Linear Gradients）- 向下/向上/向左/向右/对角方向
+		径向渐变（Radial Gradients）- 由它们的中心定义*/
+
+		.box {
+			width: 200px;
+			height: 200px;
+			margin-top: 20px;
+		}
+
+		.gradients {
+			background: lightgray;
+			background-image: linear-gradient(#f36201, #555) 
+		}
+
+		.gradLtR {
+			background: lightgray;
+			background-image: linear-gradient(to right,#f36201, #666
+				)
+		}
+
+		.gradRtL {
+			background: gray;
+			background-image: linear-gradient(to left, #f36201, #555)
+		}
+
+		.gradTbg {
+			background: gray;
+			background-image: linear-gradient(to bottom right, #f36201, #666);
+		}
+
+		.gradTdeg {
+			background: gray;
+			border-radius: 50%;
+			background-image: linear-gradient(45deg, red, green)
+		}
+
+		/*.gradMuti {
+			background: gray;
+			background-image: linear-gradient(red, green, cyan)
+		}*/
+		.gradMuti {
+			background: gray;
+			border-radius: 50%;
+			background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet)
+		}
+
+		.gradTrans {
+			background: gray;
+			background-image: linear-gradient(to right, rgba(200,200,200,1), rgba(200, 200, 200, 0.2));
+		}
+
+		.gradReat {
+			background: gray;
+			background-image: repeating-linear-gradient(red, yellow 10%, green 20%);
+		}
+
+		.gradRad {
+			background: gray;
+			background-image: radial-gradient(#f36201, black, gray);
+			border-radius: 50%;
+		}
+
+		.gradRaddg {
+			background: gray;
+			border-radius: 50%	;
+			background-image: radial-gradient(#f36201 30%, black 20%, gray 50%);
+		}
+
+		.cicle {
+			background: gray;
+			/*border-radius: 50%;*/
+			/*background-image: radial-gradient(circle,red,yellow, green);*/
+			background-image: radial-gradient(ellipse,red,yellow, green);
+		}
+	</style>
+</head>
+<body>
+	<!-- <div class="box gradients"></div>
+	<div class="box gradLtR"></div>
+	<div class="box gradRtL"></div>
+	<div class="box gradTbg"></div> -->
+	<!-- <div class="box gradTdeg"></div>
+	<div class="box gradMuti"></div>
+	<div class="box gradTrans"></div>
+	<div class="box gradReat"></div> -->
+	<!-- <div class="box gradRad"></div> -->
+	<!-- <div class="box gradRaddg"></div> -->
+	<div class="box cicle"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

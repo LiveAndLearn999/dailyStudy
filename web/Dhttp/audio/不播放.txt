@@ -1,0 +1,5 @@
+## 描述
+### 音频不可以自动播放报错ailed because the user didn't interact with the document first
+## 解决
+### https://blog.csdn.net/yang450712123/article/details/84866611?utm_medium=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromMachineLearnPai2-1.add_param_isCf&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromMachineLearnPai2-1.add_param_isCf
+   https://blog.csdn.net/L_junpeng/article/details/89404606?utm_medium=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromMachineLearnPai2-1.add_param_isCf&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromMachineLearnPai2-1.add_param_isCf

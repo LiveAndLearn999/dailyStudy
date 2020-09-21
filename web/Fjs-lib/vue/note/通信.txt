@@ -1,0 +1,11 @@
+# 子组件修改父组件数据相关问题
+## ....Instead, use a data or computed property based on the prop's value. Prop being mutated:...
+## 原因: 子组件直接修改父组件的数据
+## 解决: https://www.cnblogs.com/ahao214/p/11127384.html 
+
+## ...“Duplicate keys detected: '2'...
+## 原因: key值重复
+## 解决https://blog.csdn.net/weixin_39581226/article/details/82147166
+
+## cli-3+ 使用百度地图
+## https://www.cnblogs.com/lgjava/p/13262077.html

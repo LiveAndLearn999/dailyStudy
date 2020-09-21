@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>text</title>
+	<style>
+		.text {
+			width: 200px;
+			height: 60px;
+			border: 1px solid lightgray;
+			font-size: 16px;
+			line-height: 60px;
+			text-align: center;
+			margin-top: 20px;
+		}
+
+		.text-shadow {
+           text-shadow: 5px 5px 5px gray
+		}
+
+		.box-shadow {
+			box-shadow: 10px 10px gray;
+		}
+
+		.text-overflow {
+			/*text-overflow: clip;*/
+			overflow: hidden;
+			white-space: nowrap;
+			text-overflow: ellipsis;
+		}
+
+		.word-wrap {
+			/*word-wrap: keep-all;*/
+			word-wrap: keep-all;
+		}
+
+
+	</style>
+</head>
+<body>
+	<div class="text text-shadow">text-shadow</div>
+	<div class="text box-shadow">box-shadow</div>
+	<div class="text text-overflow">text-overflow text-overflow text-overflow text-overflow</div>
+	<div class="text word-wrap">word-wrap word-wrap word-wrap word-wrap word-wrap</div>
+	<div class="text word-break">word-break</div>
+
+</body>
+</html>

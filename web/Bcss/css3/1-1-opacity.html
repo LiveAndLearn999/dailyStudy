@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>opacity</title>
+	<style type="text/css">
+		.opacity {
+			width: 100px;
+			height: 100px;
+			background:green;
+			-webkit-animation-name: iamgeAnim;
+			-webkit-animation-duration: 0.5s;
+			-webkit-animation-iteration-count: infinite;
+			--webkit-animation-direction:alternate;
+			--webkit-animation-timing-function: ease;
+			--webkit-animation-play-state: running;
+		}
+
+		@-webkit-keyframes iamgeAnim {
+			0% {
+				opacity: 1
+			}
+			50% {
+				opacity: 0.5
+			}
+			100% {
+				opacity: 0
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="opacity"></div>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style type="text/css">
+		.box {
+			width: 400px;
+			height: 300px;
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			transform: translate(-50%, -50%);
+			border: 1px solid lightgray;
+			border-radius: 8px;
+			/*border-radius: 1-4 length|% / 1-4 length|%;*/
+			/*每个半径的四个值的顺序是：左上角，右上角，右下角，左下角。如果省略左下角，右上角是相同的。如果省略右下角，左上角是相同的。如果省略右上角，左上角是相同的。*/
+			box-shadow: 0px 0px 20px #888;
+			/*box-shadow: h-shadow v-shadow blur spread color inset;*/
+			/*box-shadow: 水平阴影必 垂直阴影必 模糊距离非 阴影大小非 阴影颜色非 从外层的的阴影(开始时)改变阴影内侧阴影;*/
+
+			/*border-image: source slice width outset repeat|initial|inherit;*/
+			/*指定要用于绘制边框的图像的位置 图像边界向内偏移 图像边界的宽度 指定在边框外部绘制 border-image-area 的量 设置图像边界是否应重复（repeat）、拉伸（stretch）或铺满（round）*/
+		}
+	</style>
+</head>
+<body>
+	<div class="box"></div>
+</body>
+</html>

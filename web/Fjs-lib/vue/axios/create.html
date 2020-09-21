@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	
+
+	<script>
+		import axiso from 'axios'
+		axios.defaults.baseURl = "xxxx"
+		Vue.prototype.$http = axios
+		//axios 请求拦截
+		axios.interceptors.request.use(config => {
+			//为请求头对象，添加Token验证Authorization字段
+			config.headers.Authorization = window.sessionStorage.getItem('token')
+			return config
+		})
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</script>
+</body>
+</html>

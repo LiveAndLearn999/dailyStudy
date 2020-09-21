@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>transform-3D</title>
+	<style>
+		.box {
+			width: 120px;
+			height: 200px;
+			border: 1px solid red;
+			margin-top: 50px;
+			margin-left: 100px;
+			text-align: center;
+			line-height: 200px;
+		}
+
+		.rotatex:hover {
+			transform: rotateX(120deg);
+		}
+
+		/*transform: 向元素应用 2D或3D转换;
+		transform-origin: 允许改变被转换元素的位置;
+		transform-style: 固定被嵌套元素如何在 3D空间中显示;
+		perspective: 规定3D元素的透视效果;
+		perspective-origin: 规定 3D元素的底部位置;
+		backface-visibility: 定义元素在不面对屏幕时是否可见;
+		*/
+
+		.rotatey:hover {
+			transform: rotateY(60deg);
+		}
+	</style>
+</head>
+<body>
+	<!-- <div class="box rotatex">this is the rotatex</div> -->
+	<div class="box rotatey">this is the rotatey</div>
+</body>
+</html>

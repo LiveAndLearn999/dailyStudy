@@ -1,0 +1,7 @@
+# url
+    .http://hemin.cn/jq/
+    .https://jquery.cuishifeng.cn/id.html
+    .https://www.bilibili.com/video/av22828090
+    .https://www.bilibili.com/video/av22807707/?p=49
+    .https://www.bilibili.com/video/av22828090?spm_id_from=333.338.__bofqi.15
+    .

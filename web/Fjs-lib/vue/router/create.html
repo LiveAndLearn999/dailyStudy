@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	
+<script>
+	import Vue from 'vue'
+	import VueRouter from 'vue-router'
+
+	Vue.use(VueRouter)
+
+	const routes = [
+      {
+      	path: '/',
+      	Component: Login,
+      	meta: {
+      		title: '登录',
+      		status: 'frees'
+      	}
+      },
+      {
+      	path: '/admin',
+      	component: Admin,
+      	meta: {
+      		title: '首页',
+      		status: 'logins'
+      	}
+      }
+	]
+
+	const router = new VueRouter({
+		routes
+	})
+
+	router.beforeEach((to, from, next) => {
+		let token = window.getSession('token')
+		if(token == null || typeof token == 'undefined') {
+			if(to.meta.status != 'frees') {
+				next('/login')
+			}else {
+				next()
+			}
+
+		}else {
+			if(to.path == '/') {
+				next('admin')
+			}else {
+				next()
+			}
+		}
+	})
+
+	export default router
+
+
+	
+</script>
+</body>
+</html>
